@@ -11,9 +11,7 @@ class Solution {
                 }
                 else if(target>nums[mid])
                 {
-                    f=mid+1;
-                    // if(target!=nums[f])
-                    // return f;
+                    f=mid+1;    
                 }
                 else{
                     l=mid-1;
